@@ -7,8 +7,6 @@ client.once('ready', () => {
     console.log('Ready!');
 });
 
-client.login("ODkyNjkyOTM4NDAyOTU1Mjk1.YVQnFQ.QD1AjCuqWz8uxFYa-zAPvMUYtvQ");
-
-
+client.login("DISCORD_TOKEN");
 
 
