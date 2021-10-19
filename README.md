@@ -1,9 +1,7 @@
 ## Bien le bonjour BigDev
-___
 je vais vous expliquer à quoi sert notre joli petit bot Kawai et comment bien l'utiliser.
 
 ##Description 
-___
 ###_Commande !histoire_tragique_
 
 La première commande "!histoire_tragique" qui va alors raconter une histoire tragique réalisé par 
@@ -19,7 +17,6 @@ Cette **Base De Donnée** peut être agrandi grâce à l'ajout de GIF autorisé 
 ```!gif_laugh``` le message sera supprimé et si la personne est administrateur alors le GIF proposé sera ajouter à la **Base De Donnée**.
 
 ##installation
-___
 
 Pour installer le bot discord sur un serveur il suffit de changer le **Token** dans le fichier _**/token.json**_
 Puis lancer dans le terminal ``node index.js`` ce qui lancera alors le fichier _index.js_ et allumera le bot, 
