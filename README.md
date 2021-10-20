@@ -17,6 +17,10 @@ Puis ```!smile``` ```!laugh``` ```!party``` et d'autres qui eux te serviront à 
 Cette **Base De Donnée** peut être agrandi grâce à l'ajout de GIF autorisé uniquement par les administrateurs, ils suffit juste de taper
 ```!gif_laugh``` le message sera supprimé et si la personne est administrateur alors le GIF proposé sera ajouter à la **Base De Donnée**.
 
+### _Commande !help_
+
+Cette commande permet d'aider ceux qui cherchent les commandes, il regroupe alors les commandes disponible avec le **BOT**
+
 ## Installation
 
 Pour installer le bot discord sur un serveur il suffit de changer le **Token** dans le fichier _**/token.json**_
