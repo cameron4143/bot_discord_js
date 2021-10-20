@@ -117,55 +117,87 @@ bot.on("message", message => {
     if(message.content.startsWith("!histoire_tragedie")){
         console.log("debut histoire");
         bot.channels.cache.get('897782601853566986').send("C’est l\'histoire de deux moches tourtereaux qui ne se sont pas rencontrés d\'une manière jolie. Un beau soir de pluie bien torrentielle ces deux tourtereaux se sont dit : pourquoi pas s\'intéresser à l\'autre  et d\'un coup…");
-        setTimeout(function MesCouilles(){bot.channels.cache.get('897782601853566986').send('le coup de foudre…')},2000);
-        bot.channels.cache.get('897782601853566986').send('ça a été le déclic pour eux deux…')
-        bot.channels.cache.get('897782601853566986').send('Il fallait courir pour éviter la foudre !!')
-        bot.channels.cache.get('897782601853566986').send('Il courut jusqu\'à l\'appartement de la fille et attendu que la météo se calme.')
-        bot.channels.cache.get('897782601853566986').send('ecrivez "!suite1" pour qu\'ils ne soient pas précoces et "!suite2" pour qu\'ils le soient')
+        setTimeout(function Time(){bot.channels.cache.get('897782601853566986').send('le coup de foudre…')
+            setTimeout(function Time(){bot.channels.cache.get('897782601853566986').send('ça a été le déclic pour eux deux…')
+                bot.channels.cache.get('897782601853566986').send('Il fallait courir pour éviter la foudre !!')
+                bot.channels.cache.get('897782601853566986').send('Il courut jusqu\'à l\'appartement de la fille et attendu que la météo se calme.')
+                bot.channels.cache.get('897782601853566986').send('ecrivez "!suite1" pour qu\'ils ne soient pas précoces et "!suite2" pour qu\'ils le soient')
+            },4000);
+        },2000);
     }
 
     if(message.content.startsWith("!suite1")) {
         console.log("suite 1 histoire");
-        bot.channels.cache.get('897782601853566986').send('Les deux tourtereaux sont maintenant à l\'abris de la foudre, le jeune homme se nommant Jean-Marie décida que c\'était le moment de soulever fortement Pierrette. Il lui parla pendant de longues heures jusqu\'au moment où il aperçut LA faille, il décida d\'en parler à Pierrette et lui dit : "Pierrette tu as une fissure dans ton mur". Elle lui répondit qu\'elle le savait déjà mais qu\'elle souhaitait plutôt qu\'il lui fissure son mur interne. Jean-Marie resta sur ses appuis pour réceptionner le coup de pied violent de Lionel Messi, Jean-Marie su rebondir face à la réponse de Lion.... ')
-        bot.channels.cache.get('897782601853566986').send('Euh Pierrette et demanda')
-        bot.channels.cache.get('897782601853566986').send('"....."')
-        bot.channels.cache.get('897782601853566986').send('"ou sont les toilettes ?"')
-        bot.channels.cache.get('897782601853566986').send('une fois revenu Jean-Marie se met à nu devant Pierrette et lui parla de ses sentiments, Pierrette répondit " tu parles trop, à poil Homme" ce que Jean-Marie s\'empressa d\'effectuer.')
-        bot.channels.cache.get('897782601853566986').send('Jean-Marie pratique actuellement le coller serrer avec Pierrette ce fut un moment fort en coup de rein, à la fin Jean-Marie se rendit compte que.... ')
-        bot.channels.cache.get('897782601853566986').send('Le portrait de Pierrette ne la mettait pas en valeur, puis il posa un œil sur la capote et se rendit compte….')
-        bot.channels.cache.get('897782601853566986').send('Qu’elle avait craqué, ce fut le drame et, tout de suite les deux commencèrent à se crier dessus pour savoir qui amènerait l\'enfant à la crèche.')
-        bot.channels.cache.get('897782601853566986').send('ecrivez "!fin1-1" pour que l\'enfant s\'appelle Marine et "!fin1-2" pour que l\'enfant s\'appelle Mimich')
+        bot.channels.cache.get('897782601853566986').send('Les deux tourtereaux sont maintenant à l\'abris de la foudre, le jeune homme se nommant Jean-Marie décida que c\'était le moment de soulever fortement Pierrette. Il lui parla pendant de longues heures jusqu\'au moment où il aperçut LA faille, il décida d\'en parler à Pierrette et lui dit : "Pierrette tu as une fissure dans ton mur". Elle lui répondit qu\'elle le savait déjà mais qu\'elle souhaitait plutôt qu\'il lui fissure son mur interne. Jean-Marie resta sur ses appuis pour réceptionner le coup de pied violent de Lionel Messi, Jean-Marie su rebondir face à la réponse de Lion....Euh Pierrette ')
+        setTimeout(function Time(){bot.channels.cache.get('897782601853566986').send(' et demanda')
+            bot.channels.cache.get('897782601853566986').send('"....."')
+            setTimeout(function Time(){bot.channels.cache.get('897782601853566986').send('"ou sont les toilettes ?"')
+                bot.channels.cache.get('897782601853566986').send('une fois revenu Jean-Marie se met à nu devant Pierrette et lui parla de ses sentiments, Pierrette répondit " tu parles trop, à poil Homme" ce que Jean-Marie s\'empressa d\'effectuer.')
+                bot.channels.cache.get('897782601853566986').send('Jean-Marie pratique actuellement le coller serrer avec Pierrette ce fut un moment fort en coup de rein, à la fin Jean-Marie se rendit compte que.... ')
+                setTimeout(function Time(){bot.channels.cache.get('897782601853566986').send('Le portrait de Pierrette ne la mettait pas en valeur, puis il posa un œil sur la capote et se rendit compte….')
+                    setTimeout(function Time(){bot.channels.cache.get('897782601853566986').send('Qu’elle avait craqué, ce fut le drame et, tout de suite les deux commencèrent à se crier dessus pour savoir qui amènerait l\'enfant à la crèche.')
+                        bot.channels.cache.get('897782601853566986').send('ecrivez "!fin1-1" pour que l\'enfant s\'appelle Marine et "!fin1-2" pour que l\'enfant s\'appelle Mimich')
+                    },6000);
+                },5000);
+            },4000);
+        },3000);
     }
     if(message.content.startsWith("!fin1-1")) {
         console.log("fin 1.1 histoire");
-        bot.channels.cache.get('897782601853566986').send('9 mois plus tard....... ')
-        bot.channels.cache.get('897782601853566986').send('Un joli bébé arriva, ce fut alors le moment de lui trouver un prénom, un joli prénom. Les parents ont réfléchi longtemps pour le trouver. ')
-        bot.channels.cache.get('897782601853566986').send('Pierrette :  " marine c\'est bien nan ???" ')
-        bot.channels.cache.get('897782601853566986').send('Jean-Marie :  " ça passe"')
-        bot.channels.cache.get('897782601853566986').send('la petite marine toute mignonne profita de la vie pleinement lorsque le jour de ses 5 ans... ')
-        bot.channels.cache.get('897782601853566986').send('elle invita tous ses amis à son anniversaire notamment de bons amis à elle Rachid et Moussa qui étais très proche d\'elle. Entre eux ils gardaient un secret très très secret, mais le jour de son anniversaire, ses deux amis ont essayer une blague qui est mal passé. ')
-        bot.channels.cache.get('897782601853566986').send('Lors de l\'arrivée de son gâteau elle se rendit compte qu\'il était composé de ses couleurs préférer qui était le noir, le gris et le jaune, mais le plus important était que le gâteau était en forme de crayon...')
-        bot.channels.cache.get('897782601853566986').send('et marine n\'apprécia pas du tout car son surnom était....')
-        bot.channels.cache.get('897782601853566986').send('" le crayon"')
-        bot.channels.cache.get('897782601853566986').send('en rapport avec son nom de famille.............')
-        bot.channels.cache.get('897782601853566986').send('Le Pen.')
-        bot.channels.cache.get('897782601853566986').send('Suite à ce jour c\'était le déclic elle développa une haine tellement grande qu\'elle contamina son paternel Jean-Marie Le Pen, et son alors devenu la famille la plus raciste de la France')
-        bot.channels.cache.get('897782601853566986').send('FIN')
+        setTimeout(function Time(){
+            bot.channels.cache.get('897782601853566986').send('9 mois plus tard....... ')
+            bot.channels.cache.get('897782601853566986').send('Un joli bébé arriva, ce fut alors le moment de lui trouver un prénom, un joli prénom. Les parents ont réfléchi longtemps pour le trouver. ')
+            bot.channels.cache.get('897782601853566986').send('Pierrette :  " marine c\'est bien nan ???" ')
+            setTimeout(function Time(){
+                bot.channels.cache.get('897782601853566986').send('Jean-Marie :  " ça passe"')
+                bot.channels.cache.get('897782601853566986').send('la petite marine toute mignonne profita de la vie pleinement lorsque le jour de ses 5 ans... ')
+                setTimeout(function Time(){
+                    bot.channels.cache.get('897782601853566986').send('elle invita tous ses amis à son anniversaire notamment de bons amis à elle Rachid et Moussa qui étais très proche d\'elle. Entre eux ils gardaient un secret très très secret, mais le jour de son anniversaire, ses deux amis ont essayer une blague qui est mal passé. ')
+                    setTimeout(function Time(){
+                        bot.channels.cache.get('897782601853566986').send('Lors de l\'arrivée de son gâteau elle se rendit compte qu\'il était composé de ses couleurs préférer qui était le noir, le gris et le jaune, mais le plus important était que le gâteau était en forme de crayon...')
+                        bot.channels.cache.get('897782601853566986').send('et marine n\'apprécia pas du tout car son surnom était....')
+                        setTimeout(function Time(){
+                            bot.channels.cache.get('897782601853566986').send('" le crayon"')
+                            setTimeout(function Time(){
+                                bot.channels.cache.get('897782601853566986').send('en rapport avec son nom de famille.............')
+                                setTimeout(function Time(){
+                                    bot.channels.cache.get('897782601853566986').send('Le Pen.')
+                                    setTimeout(function Time(){
+                                        bot.channels.cache.get('897782601853566986').send('Suite à ce jour c\'était le déclic elle développa une haine tellement grande qu\'elle contamina son paternel Jean-Marie Le Pen, et son alors devenu la famille la plus raciste de la France')
+                                        bot.channels.cache.get('897782601853566986').send('FIN')
+                                    },10000);
+                                },9000);
+                            },8000);
+                        },7000);
+                    },6000);
+                },3000);
+            },2000);
+        },1000);
     }
     if(message.content.startsWith("!fin1-2")) {
         console.log("fin 1.2 histoire");
         bot.channels.cache.get('897782601853566986').send('9 mois plus tard....... ')
-        bot.channels.cache.get('897782601853566986').send('Un joli bébé arriva, ce fut alors le moment de lui trouver un prénom, un joli prénom. Les parents ont réfléchi longtemps pour le trouver. ')
-        bot.channels.cache.get('897782601853566986').send('Pierrette :  " marine c\'est bien nan ???" ')
-        bot.channels.cache.get('897782601853566986').send('Jean-Marie :  " ça passe"')
-        bot.channels.cache.get('897782601853566986').send('Quand d\'un coup un inconnu arrive et dit " êtes-vous sur? En ce moment le prénom marine est mal vu, vous devriez prendre Mimich"')
-        bot.channels.cache.get('897782601853566986').send('Ce fut le déclic pour Jean-Marie il sut que c\'était le bon prénom "mouai ça passe mieux"')
-        bot.channels.cache.get('897782601853566986').send('Leur fille "Mimich" eu alors eu vie intéressante et un beau jour, une rencontre aussi spéciale que celle de ses parents.')
-        bot.channels.cache.get('897782601853566986').send('Sauf que ce jour-là....')
-        bot.channels.cache.get('897782601853566986').send('Mimich était dehors avec un garçon tout se passait bien quand tout à coup c\'était le coup de foudre....')
-        bot.channels.cache.get('897782601853566986').send('La foudre :  "PAFFFFFFFF en PLEIN DANS LE SANGLIERRRRRRRRR!!!!!!.| ')
-        bot.channels.cache.get('897782601853566986').send('Toi jtai pas rater grognasse" Mimich fut FOUDROYÉ en PLEINE FACE et mourut sur le coup.')
-        bot.channels.cache.get('897782601853566986').send('FIN')
+        setTimeout(function Time(){
+            bot.channels.cache.get('897782601853566986').send('Un joli bébé arriva, ce fut alors le moment de lui trouver un prénom, un joli prénom. Les parents ont réfléchi longtemps pour le trouver. ')
+            bot.channels.cache.get('897782601853566986').send('Pierrette :  " marine c\'est bien nan ???" ')
+            setTimeout(function Time(){
+                bot.channels.cache.get('897782601853566986').send('Jean-Marie :  " ça passe"')
+                bot.channels.cache.get('897782601853566986').send('Quand d\'un coup un inconnu arrive et dit " êtes-vous sur? En ce moment le prénom marine est mal vu, vous devriez prendre Mimich"')
+                setTimeout(function Time(){
+                    bot.channels.cache.get('897782601853566986').send('Ce fut le déclic pour Jean-Marie il sut que c\'était le bon prénom "mouai ça passe mieux"')
+                    bot.channels.cache.get('897782601853566986').send('Leur fille "Mimich" eu alors eu vie intéressante et un beau jour, une rencontre aussi spéciale que celle de ses parents.')
+                    bot.channels.cache.get('897782601853566986').send('Sauf que ce jour-là....')
+                    setTimeout(function Time(){
+                        bot.channels.cache.get('897782601853566986').send('Mimich était dehors avec un garçon tout se passait bien quand tout à coup c\'était le coup de foudre....')
+                        setTimeout(function Time(){
+                            bot.channels.cache.get('897782601853566986').send('La foudre :  "PAFFFFFFFF en PLEIN DANS LE SANGLIERRRRRRRRR!!!!!!.| ')
+                            bot.channels.cache.get('897782601853566986').send('Toi jtai pas rater grognasse" Mimich fut FOUDROYÉ en PLEINE FACE et mourut sur le coup.')
+                            bot.channels.cache.get('897782601853566986').send('FIN')
+                        },10500);
+                    },7500);
+                },5000);
+            },2000);
+        },1000);
     }
     if(message.content.startsWith("!suite2")) {
         console.log("suite 1 histoire");
