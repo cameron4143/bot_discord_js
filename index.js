@@ -18,6 +18,12 @@ bot.on("guildMemberAdd", member => {
 
 bot.on("message", message => {
 
+    if(message.content.startsWith("!help")){
+        console.log("help");
+        bot.channels.cache.get('892672702597439491').send("Salut, je vais te montrer les commandes disponibles");
+        bot.channels.cache.get('892672702597439491').send("!laugh : te permettra de faire apparaître un GIF rire\n Dans le même style il y à aussi : !smile !cry !angry !blush !party");
+        bot.channels.cache.get('892672702597439491').send("Ensuite tu peut lire une histoire avec !histoire_tragedie");
+    }
     if(message.content.startsWith("!gif_smile")){
         message.delete();
         if(message.member.hasPermission('ADMINISTRATOR')){
@@ -111,7 +117,7 @@ bot.on("message", message => {
     if(message.content.startsWith("!histoire_tragedie")){
         console.log("debut histoire");
         bot.channels.cache.get('897782601853566986').send("C’est l\'histoire de deux moches tourtereaux qui ne se sont pas rencontrés d\'une manière jolie. Un beau soir de pluie bien torrentielle ces deux tourtereaux se sont dit : pourquoi pas s\'intéresser à l\'autre  et d\'un coup…");
-        bot.channels.cache.get('897782601853566986').send('le coup de foudre…')
+        setTimeout(function MesCouilles(){bot.channels.cache.get('897782601853566986').send('le coup de foudre…')},2000);
         bot.channels.cache.get('897782601853566986').send('ça a été le déclic pour eux deux…')
         bot.channels.cache.get('897782601853566986').send('Il fallait courir pour éviter la foudre !!')
         bot.channels.cache.get('897782601853566986').send('Il courut jusqu\'à l\'appartement de la fille et attendu que la météo se calme.')
